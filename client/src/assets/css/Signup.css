@@ -1,0 +1,95 @@
+/* CSS for Signup Form */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    background-color: #f2f2f2;
+  }
+  
+  .form-container {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 25px;
+  width: 45%; /* Increase the width to make the form larger */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+  .form-container h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 50px;
+    color: black
+  }
+  
+  .form-control {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 40;
+    font-size: 0.9rem;
+    margin-left: 50px;
+    
+  }
+  .text {
+    margin-left: 50%;
+    color: black
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .col {
+    width: 10%;
+  }
+  .form-group input[name="month"]{
+    width: 64%;
+  }
+  .form-group input[name="year"] {
+    width: 64%;
+    margin-left:0; /* Ensure both input fields span the width of their container */
+     /* Remove the left margin to center-align them */
+  }
+  .form-group input[name="day"]{
+    width:64%;
+    margin-left: 20%;
+  }
+
+  
+  .btn-register {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    cursor: pointer;
+    
+    
+  }
+  
+  
+  .btn-login {
+    background-color: #fff;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    margin-bottom: 3%;
+    text-decoration: underline;
+  }
+  
+  .btn-login:hover {
+    color: #357ae8;
+  }
+  
